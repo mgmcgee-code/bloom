@@ -1,0 +1,40 @@
+* { box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+container {
+    height: 300px;
+}
+
+h1 {
+
+    color: white;
+    background-color: black;
+    height: 100px;
+    padding-left: 100px;
+}
+
+.clear{
+    clear: both;
+}
+
+.content-box
+{
+    width: calc(100% / 3);
+    float: left;
+    border-top: 1px solid #aaa;
+}
+
+#welcomeText p {
+
+    text-wrap: wrap;
+    padding-right: 200px;
+}
+
+#welcome, #image {
+    float: left;
+    padding-left: 100px;
+}
